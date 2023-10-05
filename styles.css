@@ -1,4 +1,3 @@
-
 *{
     font-family: 'Montserrat', sans-serif;
     margin:0; padding:0;
@@ -7,16 +6,18 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: all .2s linear;
+   
     
   }
   
   h2{
-    text-align: right;
+    text-align: center;
     font-size: 7px;
     color: rgba(0, 0, 0, 0.3);
     text-transform: lowercase;
     padding-bottom: 3px;
-    padding-right: 5px;
+    padding-right: ;
+    margin-top: -30px
   }
   
   body{
@@ -25,20 +26,23 @@
   
   .heading { text-align: center; 
     margin: 0;
-    font-family: Arial Narrow, sans-serif;
+    font-family: sans-serif, papyrus;
     background: #ffffff; font-weight: 100;
     padding-top: 10px; ;
     text-transform: capitalize;
     transition: all .2s linear;
     
     
+    
+    
   
   }
   .divider{
-    width: 300px;
+    width: 400px;
     height: 3px;
     background-color: brown;
     display: inline-block;
+    border-radius: 10px
     ;
   }
   
@@ -92,20 +96,22 @@
   .container .box-container .box:nth-child(1),
   .container .box-container .box:nth-child(2),
   .container .box-container .box:nth-child(3),
-  .container .box-container .box:nth-child(4)
-.container .box-container .box:nth-child(5),
+  .container .box-container .box:nth-child(4),
+  .container .box-container .box:nth-child(5),
   .container .box-container .box:nth-child(6),
   .container .box-container .box:nth-child(7),
   .container .box-container .box:nth-child(8),
-.container .box-container .box:nth-child(9),
+  .container .box-container .box:nth-child(9),
   .container .box-container .box:nth-child(10),
   .container .box-container .box:nth-child(11),
   .container .box-container .box:nth-child(12),
-.container .box-container .box:nth-child(13),
+  .container .box-container .box:nth-child(13),
   .container .box-container .box:nth-child(14),
   .container .box-container .box:nth-child(15),
-  .container .box-container .box:nth-child(16)
-
+  .container .box-container .box:nth-child(16),
+  .container .box-container .box:nth-child(17),
+  .container .box-container .box:nth-child(18)
+  
   
   {
     display: inline-block;
